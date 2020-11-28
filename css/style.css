@@ -1,0 +1,17 @@
+
+h1 {
+    margin: 10px 25%;
+    
+}
+
+body > p {
+    text-align: center;
+}
+
+#survey-form {
+    background-color: lightblue;
+    width: 500px;
+    padding: 10px;
+}
+
+

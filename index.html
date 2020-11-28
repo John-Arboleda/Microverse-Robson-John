@@ -13,23 +13,24 @@
 
     <p id="description">This survey is to help us to find out what languages our clients need and what kind of learning tool they prefer</p>
 
-    <form id="survey-form"> 
-      <input type="text" id="name" placeholder="Enter your name: " required></br>
+    <form id="survey-form">
       <label id="name-label">Student Name</label></br>
-
-      <input type="email" id="email" placeholder="Enter your e-mail: " required></br>
-      <label id="email-label">E-mail</label></br>
+      <input type="text" id="name" placeholder="Enter your name: " required></br></br>
       
-      <input type="number" id="number" min="18" max="100" placeholder="Enter your age: " ></br>
+      <label id="email-label">E-mail</label></br>
+      <input type="email" id="email" placeholder="Enter your e-mail: " required></br></br>
+      
       <label id="number-label">Age</label></br>
-
+      <input type="number" id="number" min="18" max="100" placeholder="Enter your age: " ></br></br>
+      
+      <p>What language are you interested on</p>
       <select name="languages" id="dropdown">
         <option value="english">English</option>
         <option value="spanish">Spanish</option>
         <option value="portuguese">Portuguese</option>
         <option value="chinese">Chinese</option>
         <option value="japanese">Japanese</option>
-      </select>
+      </select></br>
 
       <p>Please select your proficiency level for the language</p>
       <input type="radio" name="fluency" value="none" id="none">
@@ -51,11 +52,11 @@
       <input type="checkbox" name="preferences" value="Entertainment" id="Entertainment">
       <label for="Entertainment">Entertainment</label></br>
       <input type="checkbox" name="preferences" value="Meet new people" id="Meet">
-      <label for="Meet">Meet new people</label></br>
+      <label for="Meet">Meet new people</label></br></br>
 
       <textarea name="textarea" rows="3" cols="50">
         Enter your comment here: 
-      </textarea>
+      </textarea></br></br>
 
     </br><button type="submit" id="submit" value="submit">Submit</button>
 
